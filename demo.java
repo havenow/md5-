@@ -1,3 +1,14 @@
+    void setStateOwner(String id) {
+        m_nStateOwner = id;
+    }
+
+    String getStateOwner() {
+        return m_nStateOwner;
+    }
+
+    String m_nStateOwner = "";
+	
+	
  /**
      * 注释：short到字节数组的转换！
      *
